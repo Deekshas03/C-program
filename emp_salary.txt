@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int emp_id;
+    int hours;
+    int amount;
+    int total_amount=0;
+    printf("enter the emp_id");
+    scanf("%d",&emp_id);
+    printf("enter the hours employee worked");
+    scanf("%d",&hours);
+    printf("enter the money employee should get");
+    scanf("%d",&amount);
+    total_amount=hours*amount;
+    printf("the total salary of %d is %d",emp_id,total_amount);
+}
+output 
+enter the emp_id  123
+enter the hours employee worked  12
+enter the money employee should get  900
+the total salary of 123 is 10800

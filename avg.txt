@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    float a,b,c,avg;
+    int sum=0;
+    printf("enter the value of a,b,c");
+    scanf("%f %f %f",&a,&b,&c);
+    sum=a+b+c;
+    avg=sum/3;
+    printf("\nsum of 3  numbers=%d",sum);
+    printf("\navg=%f",avg);
+}
+output
+enter the value of a,b,c 10 20 30
+sum of 3 numbers=60
+avg=20.00000

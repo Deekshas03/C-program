@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   printf("Name: Alexandra Abramov");
+   printf("\nDOB: July 14, 1975");
+   printf("\nMobile: 99-9999999999");
+}
+output
+Name: Alexandra Abramov 
+DOB: July 14, 1975 
+Mobile: 99-9999999999

@@ -1,0 +1,17 @@
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    float a,b,c;
+    printf("enter the value of a");
+    scanf("%f",&a);
+    b=a*a;
+    c=b*a;
+    printf("\nsqaure of number=%f",b);
+    printf("\ncube of a number=%f",c);
+}
+output
+enter the value of a 5
+square of number=25.0000
+cube of a number=125.0000

@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int a,b,c,d;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    printf("enter the value of b");
+    scanf("%d",&b);
+    c=a/b;
+    d=a%b;
+    printf("quoient=%d",c);
+    printf("\nremiander=%d",d);
+}
+output
+ enter the vaue of a 9
+enter the value of b 2
+quoitent=4
+remainder=1

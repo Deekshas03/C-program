@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int p;
+    float r=4.5,t,si;
+    printf("enter the value of principal");
+    scanf("%d",&p);
+    printf("enter the time");
+    scanf("%f",&t);
+    si=p*t*r/100;
+    printf("the value of si is %f ",si);
+}
+output
+enter the value of principal 5600
+enter the time 4
+the value of si is 1008.0000
