@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int r;
+    float a,v;
+    printf("enter the radius");
+    scanf("%d",&r);
+    a=4*3.14*r*r;
+    v=4*3.14*r*r*r;
+    printf("the area of sphere %f",a);
+    printf("\nthe volume of sphere %f",v);
+}
+output
+enter the radius 2
+the area of sphere 50.2400
+the volume of sphere 100.4800

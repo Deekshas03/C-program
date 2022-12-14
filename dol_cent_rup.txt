@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   float d,r,c;
+   printf("enter the value of dollar:");
+   scanf("%f",&d);
+   r=d*82.45;
+   printf("%f dollar = %f rupees",d,r);
+   printf("\nenter the value of cents:");
+   scanf("%f",&c);
+   r=(c*0.01)*0.82;
+   printf("\n%f cents=%f rupees",c,r);
+}
+output
+ enter the value of dollar: 5
+5 dollar=412.25000 rupees
+enter the value of cents:100
+100.000 cents=0.820000 rupees

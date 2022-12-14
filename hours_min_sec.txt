@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   float hours,min;
+   printf("enter the hours:");
+   scanf("%f",&hours);
+   min=60*hours;
+   printf("%f hours = %f mins",hours,min);
+   sec=60*min;
+   printf("\n%f mins=%f secs",min,sec);
+}
+output
+enter the hours:24
+24.00 hours=1440.000 mins
+1440.00 mins=86400.0000 secs

@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   char ch;
+   printf("enter a character");
+   scanf("%c",&ch);
+   printf("the ASCII value of %c is %d",ch,ch);
+}
+output
+enter a character q
+the ASCII value of q is 113

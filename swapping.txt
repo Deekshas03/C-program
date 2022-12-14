@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   int a,b,c;
+   printf("enter the value of a");
+   scanf("%d",&a);
+   printf("enter the value of b");
+   scanf("%d",&b);
+   printf("Before swapping a is %d and b is %d",a,b);
+   c=a;
+   a=b;
+   b=c;
+   printf("\nAfter swapping a is %d and b is %d",a,b);
+}
+output
+enter the value of a 8
+enter the value of b 9
+before swapping a is 8 and b is 9
+after swapping a is 9 and b is 8
