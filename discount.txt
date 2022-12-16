@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<conio.h>
 void main()
@@ -7,13 +8,13 @@ void main()
      scanf("%d",&t);
      printf("enter the amount of purchase:");
      scanf("%d",&p);
-     d=(t*10)/100;
-     printf("the discount amount is:%d",d);
+     d=(p*10)/100;
+     printf("the discount per is:%d",d);
      balance=t-(p-d);
      printf("\nthe balance amount is:%d",balance);
 }
 output
-enter thetotal amount:10
-enter the amount of purchase:4
-the discount amount is: 1
-the balance amount is:7
+enter thetotal amount: 500
+enter the amount of purchase :400
+the discount per is: 40
+the ba;ance amount is:140
